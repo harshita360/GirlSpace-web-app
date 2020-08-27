@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--<link rel ="stylesheet" type="text/css" href="girlspace.css">-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title class="font-weight-bold">Girlspace</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+	<style type="text/css">
+	.nav-link{
+	color:white;
+	}
+	
+	title{
+	font-weight:bold;
+	}
+#para{
+	color:white;
+	float:left;
+	font-size=18;
+	width:400px;
+	height:300px;
+	
+	margin:50px
+	
+	}
+	
+	video{
+width:500px;
+height:300px;
+
+left:20px;
+border:1px solid yellow;
+float:left;
+}
+body{
+background-color:#003b59;
+}
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+} 
+
+.footer{
+clear: both;
+color:#003b59;
+
+background-color:#f7d560;
+height:200px;
+width:100%;
+margin:5px;
+
+
+}
+
+#topic{
+animation:text 3s 1;
+}
+.main{
+margin:10px;
+}
+
+#firstbtn{
+      background:#f2f038;
+	  box-shadow:0 0 10px #f2f038,0 0 40px #f2f038,0 0 10px #f2f038;
+}
+
+
+	</style>
+  </head>
+  <body>
+  
+  
+  <ul class="nav nav-tabs justify-content-end" style="background-color: #003b59">
+  <li class="nav-item" >
+    <a class="nav-link" href="discussion.html" >Contact Us</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="create_account.html" >Sign up</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#" >Help</a>
+  </li>
+  
+</ul>
+  
+  
+  
+  
+  
+  
+  
+  <div class="jumbotron" style="background-color: #00A1F1">
+  <h1 class="display-4"  id="topic" style="color:white;font-style:arial bold">GirlSpace</h1>
+  <p class="lead">A platform that provides visibility, community, and resources for women in technology.Learn new skills,get inspired and meet other women in technolgy near you.</p>
+  <hr class="my-4">
+  <p>Sign up to Girlspace to stay updated and not miss an opportunity!</p>
+  <a class="btn btn-light btn-lg" id="firstbtn" href="create_account.html" role="button">Sign Up</a>
+</div>
+
+
+<div class="main" >
+<div class="row row-cols-1 row-cols-md-3">
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="data:image/png;base64,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" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">WOMEN TECHMAKERS</h5>
+		<p class="card-text">Women Techmakers runs a variety of events every year from Google summits and conferences, including International Women’s Day and I/O, to Hackathons, to local, community-hosted meetups, all designed to build expertise and community.<br><br>Google Anita Borg Memorial Scholarship Program -Women in India are eligible for this under Asia Pacific region</p>
+        <a href="https://www.womentechmakers.com/" class="btn btn-primary">View Site</a>
+	  </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQvbgPrmqhrpjPkCbWdS23XiLDzQSJ5ngtqdDa0ufjyhUX8eWqX&usqp=CAU" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Google</h5>
+        <p class="card-text">It is an coding comeptiton by Google spaecially for women. The top 150 on the scoreboard will receive a ticket and reimbursement to offset travel expenses to Google I/O.<br><br><br>Code Jam is one of the three competitions(hash code,kick start)that Google holds for participants of all skill levels.</p>
+        <a href="https://codingcompetitions.withgoogle.com/codejamio" class="btn btn-primary">View Site</a>
+	  </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200229225923/Coderita-Online-Coding-Competition-For-Women-By-GeeksforGeeks.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">GEEKS FOR GEEKS</h5>
+        <p class="card-text">Coderita is a 1-Day online coding contest which is designed only for the female coders to appreciate their programming skills.<br><br>Coderita will be a single round contest which consists of 2 Coding Questions that you have to solve within a duration of 60 minutes.Coderita is not only offering you appreciation but there are also some exciting prizes.</p>
+       <a href="https://www.geeksforgeeks.org/coderita-online-coding-competition-for-women-by-geeksforgeeks" class="btn btn-primary">View Site</a>
+	  </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="https://brookline.com/wp-content/uploads/2017/09/GWC.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">GIRLS WHO CODE</h5>
+        <p class="card-text">It is a US based non profit organisation that is expanded to India.<br><br>The programme provides an environment for girls to engage in fun online coding tutorials, build community through interactive activities, learn about inspiring role models in tech, and work together to design solutions to real-world problems. </p>
+      <a href="https://girlswhocode.com/en-in" class="btn btn-primary">View Site</a>
+	  </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="https://qph.fs.quoracdn.net/main-qimg-1c75acce9ab631265c33fb28ddb7c8b7" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">HackerEarth</h5>
+        <p class="card-text">Hackerearth organises a number of challenges for young engineering women or developers to showcase their skills. <br><br>
+		Code Wars,International Women's Hackathon,Hack Diva,She Codes,are some of the many competitions hosted by HackerEarth.<br><br></p>
+      <a href="https://www.hackerearth.com/challenges" class="btn btn-primary">View Site</a>
+	  </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+	<br>
+      <img src="data:image/png;base64,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" class="card-img-top" alt="...">
+      <br>
+	  <br>
+	  <br>
+	  <div class="card-body">
+        <h5 class="card-title">GirlScript</h5>
+        <p class="card-text">GirlScript Foundation is a non-profit registered by Government of India<br><br>GirlScript Summer of Code is the 3 month long Open Source program during summers conducted by GirlScript Foundation, started in 2018, with an aim to help beginners get started with Open Source Development while encouraging diversity.</p>
+      <a href="https://www.girlscript.tech/home" class="btn btn-primary">View Site</a>
+	  </div>
+    </div>
+  </div>
+</div>
+</div>
+<br>
+<br>
+
+<video  controls autoplay>
+<source src="video.mp4" type="video/mp4">
+Please upgrade your browser!
+</video>
+
+
+<div id="para">
+Gender equality remains a major issue in the corporate world, and women remain significantly underrepresented in the corporate pipeline. Despite an abundance of research confirming that companies are more profitable when they have more women in the C-suite, we still have a gender gap in most companies. Diversity and inclusion cannot be part of a one-time campaign; rather, they are causes that require continuous work that needs to be developed, maintained and cultivated.
+</div>
+<br>
+<br><br><br>
+<br><br><br>
+<br><br>
+<br><br><br>
+
+<div class="footer">
+
+  <div class="container-fluid text-center text-md-left">
+
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-6 mt-md-0 mt-3">
+
+        <!-- Content -->
+		<br>
+        <h5 class="text-uppercase"></h5>
+        <p>Work Together Learn Together</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none pb-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 mb-md-0 mb-3">
+
+        <!-- Links -->
+		<br>
+        
+
+        <ul class="list-unstyled">
+          <li>
+            <a >Privacy</a>
+          </li>
+          <li>
+            <a>Terms</a>
+          </li>
+          <li>
+            <a>About GirlSpace</a>
+          </li>
+          <li>
+            <a>Help</a>
+          </li>
+        </ul>
+
+      </div>
+	  <br>
+	  <div class="col-md-3 mb-md-0 mb-3">
+
+        <br>
+
+        <ul class="list-unstyled">
+          <li>
+           Page One</a>
+          </li>
+          <li>
+           Page Two</a>
+          </li>
+          <li>
+           Page Three</a>
+          </li>
+          <li>
+           Page Four</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+	  
+
+  
+  <div class="footer-copyright text-center py-3">© 2020 Copyright: Harshita Shree
+   
+  </div>
+ 
+
+</footer>
+<!-- Footer -->
+
+</div>
+
+
+
+
+
+  
+
+  </body>
+</html>

@@ -1,0 +1,92 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+h1{
+	font:bold 60px Tahoma ;
+	text-align:center;
+	color:white;
+}
+h2{
+	font:bold 40px Tahoma;
+	color:#FFFEFE 
+}
+
+header{
+	
+	display:block;
+	height:110px;
+}
+section,footer,aside,nav,article{
+	display:block;
+}
+body{
+	width:100%;
+	display:-webkit-box;
+	-webkit-box-pack:center;/*center the contents...centre the one child box the body has that is the div box*/
+}
+#big_wrapper{
+    max-width:1000px;
+    margin:20px 0px;
+	display:-webkit-box;
+	-webkit-box-orient:vertical;  /*place the children box left to right or top to bottom*/
+	-webkit-box-flex:1;/*either shrink or grow*/
+}
+
+
+#top_header{
+	background:#BD0808;
+	border:2px solid black;
+	padding:20px
+   color:white;
+
+}
+
+#top_menu{
+	border:white;
+	background:#C0BBBC;
+	color:white;
+	height:50px;
+	
+	
+}
+#top_menu li{
+	display:inline-block;
+	list-style:none;/*no bullets*/
+	padding:5px;
+	font:bold 17px Tahoma;
+	color:red;
+}
+img{
+	height=3px;
+	width=5px;
+	position:absolute;
+	top:25px;
+	left:45px;
+}
+#new_div{
+	display:-webkit-box;
+	-webkit-box-orient:horizontal;/*children of new dv laid out side by side*/
+}
+#main_section{
+	border:1px solid black;
+	-webkit-box-flex:1;/*box is flexible...dynamically*/
+	margin:20px;
+	padding:20px;
+	background:black;
+	color:white;
+}
+#side_news{
+	border:1px solid black;
+	width:220px;
+	margin:20px 0px;
+	padding:30px;
+	background:#f46681;
+}
+#the_footer{
+	text-align:center;
+	padding:20px;
+	border-top:5px solid black;
+}
+
+	
